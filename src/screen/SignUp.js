@@ -19,7 +19,7 @@ const SignUp = () => {
             })
         });
         const json =await result.json();
-        console.log(json);
+        // console.log(json);
 
         if(!json.success){
             alert("Enter a valid Credential")

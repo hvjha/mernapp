@@ -71,7 +71,7 @@ const Card = (props) => {
               ))}
             </select>
             <div className="d-inline fs-5 p-1">
-              Rs.{qty * parseInt(option[size])}/-
+            ₹{qty * parseInt(option[size])}/-
             </div>
           </div>
           <hr />
